@@ -30,7 +30,7 @@ class _MyAppState extends State<MyApp> {
         body: Center(
           child: AnimatedOpacity(
               opacity: _visible ? 1.0 : 0.0,
-              duration: Duration(milliseconds: 500),
+              duration: Duration(milliseconds: 500), // 500毫秒 变换时长
             child: Container(
               width: 200.0,
               height: 200.0,
